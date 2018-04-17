@@ -3,22 +3,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>{JFROG_USERNAME}</username>
-      <password>{JFROG_KEY}</password>
+      <username>admin</username>
+      <password>AP5ULQ2a3RNBc62cQNQqgNqcCZT</password>
       <id>central</id>
     </server>
     <server>
-      <username>{JFROG_USERNAME}</username>
-      <password>{JFROG_KEY}</password>
+      <username>admin</username>
+      <password>AP5ULQ2a3RNBc62cQNQqgNqcCZT</password>
       <id>snapshots</id>
     </server>
-    <server>
-         <id>git-repository</id>
-         <username>{REPOSITORY_USER_NAME}</username>
-         <password>{REPOSITORY_PASSWORD}</password>
-      </server>
   </servers>
-   <profiles>
+  <profiles>
     <profile>
       <repositories>
         <repository>
@@ -26,14 +21,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>mvn</name>
-          <url>https://syscobt.jfrog.io/syscobt/mvn</url>
+          <name>libs-release</name>
+          <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>mvn</name>
-          <url>https://syscobt.jfrog.io/syscobt/mvn</url>
+          <name>libs-snapshot</name>
+          <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -42,14 +37,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>mvn</name>
-          <url>https://syscobt.jfrog.io/syscobt/mvn</url>
+          <name>libs-release</name>
+          <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>mvn</name>
-          <url>https://syscobt.jfrog.io/syscobt/mvn</url>
+          <name>libs-snapshot</name>
+          <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
@@ -59,4 +54,3 @@
     <activeProfile>artifactory</activeProfile>
   </activeProfiles>
 </settings>
-
