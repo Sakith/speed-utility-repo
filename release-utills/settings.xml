@@ -32,7 +32,7 @@
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>libs-snapshot</name>
+          <name>libs-release</name>
           <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release</url>
         </repository>
       </repositories>
@@ -48,7 +48,7 @@
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>libs-snapshot</name>
+          <name>libs-release</name>
           <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release</url>
         </pluginRepository>
       </pluginRepositories>
