@@ -33,7 +33,7 @@
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-snapshot</url>
+          <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -49,7 +49,7 @@
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-snapshot</url>
+          <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
